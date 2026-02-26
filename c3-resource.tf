@@ -8,8 +8,8 @@ resource "aws_instance" "nds-cloud-vm" {
     user_data = file("apache-install.sh")
     tags = {
 
-        Name = "Webserver"
-        Name = "AppServer"
+        Name = "Webserver2"
+        Env = "Development"
     }
 
 }
