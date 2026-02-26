@@ -9,6 +9,7 @@ resource "aws_instance" "nds-cloud-vm" {
     tags = {
 
         Name = "Webserver"
+        Name = "AppServer"
     }
 
 }
